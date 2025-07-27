@@ -3,32 +3,32 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "splitzy",
+    description: " splitzy is a simple yet powerful app designed to split bills and expenses among friends, roommates, or groups",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Next", "TailwindCSS", "Convex"],
+    demoUrl: "https://splitzy-nu.vercel.app/",
+    githubUrl: "https://github.com/vinnnnay/splitzy",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "skillzy ",  
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "skillzy is a full-featured, scalable platform designed to streamline the entire technical interview process—from scheduling to real-time collaboration",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Convex", "Tailwind", "Next.js"],
+    demoUrl: "https://interview-platform-gold.vercel.app/",
+    githubUrl: "https://github.com/vinnnnay/Interview_platform",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "LinkSuraksha Platform",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      " LinkSuraksha is a privacy-focused payment gateway that allows users to make secure digital transactions without exposing their real bank account, UPI ID, or card details",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "Node.js", "Mongodb"],
+    demoUrl: "https://linksuraksha.netlify.app/",
+    githubUrl: "https://github.com/GurnishS/LinkSuraksha",
   },
 ];
 
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/vinnnnay"
           >
             Check My Github <ArrowRight size={16} />
           </a>
